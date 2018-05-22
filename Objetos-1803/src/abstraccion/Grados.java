@@ -1,33 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package abstraccion;
 
-/**
- *
- * @author T-101
- */
 public class Grados {
 
-    private float centigrados;
-    private float farenheit;
+    private float Centigrados;
+    private float Farenheit;
 
     public float getCentigrados() {
-        return centigrados;
+        return Centigrados;
     }
 
     public void setCentigrados(float centigrados) {
-        this.centigrados = centigrados;
+        this.Centigrados = centigrados;
     }
 
     public float getFarenheit() {
-        return farenheit;
+        return Farenheit;
     }
 
     public void setFarenheit(float farenheit) {
-        this.farenheit = farenheit;
+        this.Farenheit = farenheit;
     }
 
 }
+//Agregar a un costado de los centigrados lo siguiente: de Metros a Pies
