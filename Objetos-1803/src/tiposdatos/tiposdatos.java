@@ -26,4 +26,5 @@ public class tiposdatos {
         float f=(float)4.5;
         String malo="4";
         int bueno= Integer.parseInt(malo);
+       
 }
