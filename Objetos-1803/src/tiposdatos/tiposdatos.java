@@ -28,3 +28,4 @@ public class tiposdatos {
         int bueno= Integer.parseInt(malo);
        
 }
+}
