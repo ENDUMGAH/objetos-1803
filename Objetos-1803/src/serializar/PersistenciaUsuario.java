@@ -37,7 +37,7 @@ public class PersistenciaUsuario {
         
         //Escribir un objeto en el
         ObjectOutputStream oos=new ObjectOutputStream(fos);
-        oos.writeObject(c);
+        oos.writeObject(clientes);
         oos.close();
         
           

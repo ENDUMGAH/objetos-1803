@@ -12,14 +12,15 @@ package serializar;
 public class Aplicacion {
     public static void main(String[] args) throws Exception{
         //Esto es para leer
-        //Cliente c=PersistenciaUsuario.leer();
-        //System.out.println("Vamos a checar el nombre "+c.getNombre());
+        for( Cliente c=PersistenciaUsuario.leer()){
+        System.out.println("Vamos a checar el nombre "+c.getNombre());
         
-       
+       /*
        Cliente c=new Cliente();
-       c.setNombre("Kiara");
-       c.setEdad(2);
+       c.setNombre("kisha");
+       c.setEdad(17);
        PersistenciaUsuario.guardar(c);
-       
+       */
+        }
     }
 }
